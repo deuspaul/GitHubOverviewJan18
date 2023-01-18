@@ -43,7 +43,7 @@ jobs:
             echo $STEP_VAR
             echo "The following is a secret: ${{ secrets.SOME_SECRET }}, of course, I cant tell you because then it wouldnt be a secret..."
             echo "The following are default environment variables"
-            echo $GIBHUT_ACTOR
+            echo $GITHUB_ACTOR
             echo $GITHUB_JOB
             echo $GITHUB_REF
             
