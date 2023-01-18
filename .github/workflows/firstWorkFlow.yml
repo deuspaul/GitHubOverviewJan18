@@ -11,7 +11,7 @@ jobs:
         shell: cmd
         run: echo Hello World! This is the first job
 
-    secondjob:
+  secondjob:
       runs-on: ubuntu-latest
       steps:
         - name: secondJob script
